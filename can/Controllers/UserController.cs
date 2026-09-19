@@ -15,8 +15,8 @@ namespace can.Controllers
         }
         public ActionResult Index(string ?name)
         {
-            var qury=_userrepo.Search(name);
-           return View(qury);
+            var x = _userrepo.GetAll();
+            return View(x);
         }
         // GET: UserController/Details/5
         public ActionResult Details(int id)
@@ -41,6 +41,11 @@ namespace can.Controllers
         // GET: UserController/Edit/5
         public ActionResult Edit(int id)
         {
+            var x=_userrepo.GetById(id);
+            if (x==null)
+            {
+                return NotFound();
+            }
            return View(id);
         }
         // POST: UserController/Edit/5
@@ -64,10 +69,10 @@ namespace can.Controllers
             _userrepo.Delete(id);
             return RedirectToAction(nameof(Index));
         }
-        //public ActionResult Search(string? name)
-        //{
-        //   return View("Index",_userrepo.Search(name));
-        //}
+        public ActionResult Search(string? name)
+        {
+            return View("Index", _userrepo.Search(name));
+        }
 
     }
 }

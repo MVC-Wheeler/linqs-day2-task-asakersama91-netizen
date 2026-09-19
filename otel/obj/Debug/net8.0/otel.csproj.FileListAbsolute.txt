@@ -1,0 +1,5 @@
+C:\Users\DELL CORE i7\source\repos\linqs-day2-task-asakersama91-netizen\otel\obj\Debug\net8.0\otel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL CORE i7\source\repos\linqs-day2-task-asakersama91-netizen\otel\obj\Debug\net8.0\otel.AssemblyInfoInputs.cache
+C:\Users\DELL CORE i7\source\repos\linqs-day2-task-asakersama91-netizen\otel\obj\Debug\net8.0\otel.AssemblyInfo.cs
+C:\Users\DELL CORE i7\source\repos\linqs-day2-task-asakersama91-netizen\otel\obj\Debug\net8.0\otel.csproj.CoreCompileInputs.cache
+C:\Users\DELL CORE i7\source\repos\linqs-day2-task-asakersama91-netizen\otel\obj\Debug\net8.0\otel.sourcelink.json

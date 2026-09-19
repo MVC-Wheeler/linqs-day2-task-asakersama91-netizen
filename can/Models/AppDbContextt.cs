@@ -17,12 +17,12 @@ namespace can.Models
         public DbSet<Staff> staffs { get; set; }
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Fooditem>().HasOne(e => e.User).WithMany(t => t.Fooditems).HasForeignKey(e=>e.UserId).OnDelete(DeleteBehavior.Cascade);
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Fooditem>().HasOne(e => e.User).WithMany(t => t.Fooditems).HasForeignKey(e=>e.UserId).OnDelete(DeleteBehavior.Cascade);
 
 
-        }
+        //}
 
     }
 }
